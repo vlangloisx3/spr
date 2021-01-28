@@ -1,6 +1,6 @@
 PennController.DebugOff()
 
-var shuffleSequence = seq("intro", sepWith("sep", seq("practice")), "transfer", sepWith("sep", seq(anyOf("filler", "dtrain" "dtest"))), "post1", "post2", "exit");
+var shuffleSequence = seq("intro", sepWith("sep", seq("practice")), "transfer", sepWith("sep", seq(anyOf("filler", "dtrain", "dtest"))), "post1", "post2", "exit");
 var practiceItemTypes = ["practice"];
 var completionMessage = "Thank you for your participation! Don't forget to paste your unique identifier code into Mechanical Turk."
 
