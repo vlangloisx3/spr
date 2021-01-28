@@ -207,7 +207,7 @@ var items = [
     ["filler", "DashedSentence", {s:"The students went on a trip to Paris one summer to improve their language skills."},
      "Question", {hasCorrect: "Paris", q:"Where did the students go on a trip?", as: ["Australia", "Paris"]}],
     
-    ["critical", "DashedSentence", {s:"The businesswoman needs prepared for the presentation."},
+    ["dtrain", "DashedSentence", {s:"The businesswoman needs prepared for the presentation."},
      "Question", {hasCorrect: "The businesswoman", q:"Who is presenting?", as: ["The intern", "The businesswoman"]}],
     
     ["filler", "DashedSentence", {s:"The street lamps usually came on automatically just before dark."},
