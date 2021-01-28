@@ -83,8 +83,8 @@ var items = [
     ["filler", "DashedSentence", {s:"The chess match lasted for hours and finally ended in a stale mate."},
      "Question", {hasCorrect: "No", q:"Did anyone win the chess match?", as: ["Yes", "No"]}],
     
-    ["filler", "DashedSentence", {s:"The parents completely disagreed with the new regulations."},
-     "Question", {hasCorrect: "No", q:"Did the parents agree with the new regulations?", as: ["Yes", "No"]}],
+    ["filler", "DashedSentence", {s:"The board directors need accomplished doctors to make up most of the hospital staff."},
+     "Question", {hasCorrect: "The hospital", q:"What are the board directors in charge of?", as: ["The hospital", "The town hall"]}],
     
     ["filler", "DashedSentence", {s:"The unpopular anthropology professor was finally going to retire."},
      "Question", {hasCorrect: "Anthropology", q:"What subject did the professor teach?", as: ["Psychology", "Anthropology"]}],
@@ -92,8 +92,8 @@ var items = [
     ["dtrain", "DashedSentence", {s:"The chef needs praised for her extraordinary recipe for chicken soup."},
      "Question", {hasCorrect: "Chicken", q:"What kind of soup did the chef make?", as: ["Tomato", "Chicken"]}],
     
-    ["filler", "DashedSentence", {s:"The roofer got a terrible sunburn from being outside all day."},
-     "Question", {hasCorrect: "The roofer", q:"Who got a terrible sunburn?", as: ["The beachgoer", "The roofer"]}],
+    ["filler", "DashedSentence", {s:"The soccer coach needs motivated athletes for the team."},
+     "Question", {hasCorrect: "Soccer", q:"What sport is being coached?", as: ["Soccer", "Tennis"]}],
     
     ["filler", "DashedSentence", {s:"The shoppers love to spend all day at the mall on the weekends."},
      "Question", {hasCorrect: "The mall", q:"Where do the shoppers spend their day on the weekends?", as: ["The mall", "The movie theater"]}],
@@ -101,8 +101,8 @@ var items = [
     ["filler", "DashedSentence", {s:"The coffee shop was a popular hangout for political activists."},
      "Question", {hasCorrect: "The coffee shop", q:"Where do the political activists hang out?", as: ["The club", "The coffee shop"]}],
     
-    ["filler", "DashedSentence", {s:"The package arrived too late to be of any use."},
-     "Question", {hasCorrect: "The package", q:"What arrived too late?", as: ["The paycheck", "The package"]}], 
+    ["filler", "DashedSentence", {s:"The director needs nominated actors to attend the exclusive party after the award ceremony."},
+     "Question", {hasCorrect: "After the ceremony", q:"When is the exclusive party?", as: ["After the ceremony", "Before the ceremony"]}], 
     
     ["dtrain", "DashedSentence", {s:"The cardio instructor needs energized for the morning class."},
      "Question", {hasCorrect: "A cardio instructor", q:"What kind of instructor is teaching the class?", as: ["A cardio instructor", "A yoga instructor"]}],
@@ -119,20 +119,20 @@ var items = [
     ["dtrain", "DashedSentence", {s:"The injured soccer player needs treated by the team doctor."},
      "Question", {hasCorrect: "A soccer player", q:"Who was injured?", as: ["A basketball player", "A soccer player"]}],
     
-    ["filler", "DashedSentence", {s:"The new student disappeared after only three days of school."},
-     "Question", {hasCorrect: "Three days", q:"How long did the student stay for?", as: ["Three days", "A month"]}],
+    ["filler", "DashedSentence", {s:"The university dean needs talented professors to head up the psychology undergraduate program."},
+     "Question", {hasCorrect: "Psychology", q:"What major is the program in?", as: ["Psychology", "Biology"]}],
     
     ["filler", "DashedSentence", {s:"The new experiment was the source of a great deal of excitement in the lab."},
      "Question", {hasCorrect: "The new experiment", q:"What was the source of the excitement?", as: ["A new lab member", "The new experiment"]}],
     
-    ["filler", "DashedSentence", {s:"The wedding had to be rescheduled because of a hurricane."},
-     "Question", {hasCorrect: "A hurricane", q:"What caused the wedding to be rescheduled?", as: ["A hurricane", "A snowstorm"]}],
+    ["filler", "DashedSentence", {s:"The principal needs empowered students to take action within the community."},
+     "Question", {hasCorrect: "The principal", q:"Who wants to improve the community?", as: ["The principal", "The mayor"]}],
     
     ["dtrain", "DashedSentence", {s:"The doctor needs rested before the surgery tomorrow."},
      "Question", {hasCorrect: "A surgery", q:"What is happening tomorrow?", as: ["A dance performance", "A surgery"]}],
     
-    ["filler", "DashedSentence", {s:"The children in the park could be heard three blocks away."},
-     "Question", {hasCorrect: "Children", q:"Who was playing in the park?", as: ["Children", "Teenagers"]}],
+    ["filler", "DashedSentence", {s:"The competitive swimmer needs dried towels for after swim practice."},
+     "Question", {hasCorrect: "A competitive swimmer", q:"Who is practicing swimming?", as: ["A competitive swimmer", "A diver"]}],
     
     ["filler", "DashedSentence", {s:"The pilots flew over the city where they had just had a wonderful weekend."},
      "Question", {hasCorrect: "Over the weekend", q:"When did the pilots visit the city?", as: ["On Tuesday", "Over the weekend"]}],
@@ -143,9 +143,9 @@ var items = [
     ["filler", "DashedSentence", {s:"The runners were in much better shape in the fall than in the winter."},
      "Question", {hasCorrect: "In the fall", q:"When were the runners in shape?", as: ["In the fall", "In the summer"]}],
     
-    ["filler", "DashedSentence", {s:"All the undergraduates in the class had trouble keeping up."},
-     "Question", {hasCorrect: "Keeping up with the class material", q:"What did the undergraduates struggle with?", 
-                  as: ["Keeping up with the class material", "Sports"]}],
+    ["filler", "DashedSentence", {s:"The children need brushed hair before going to school."},
+     "Question", {hasCorrect: "To school", q:"Where are the children going?", 
+                  as: ["To the playground", "To school"]}],
     
     ["filler", "DashedSentence", {s:"The adventurer needs glorified songs of his achievements."},
      "Question", {hasCorrect: "Yes", q:"Does the adventurer have any achievements?", as: ["Yes", "No"]}],
@@ -156,8 +156,8 @@ var items = [
     ["dtrain", "DashedSentence", {s:"The writer needs inspired so that they can create a masterpiece."},
      "Question", {hasCorrect: "The writer", q:"Who wants to create a masterpiece?", as: ["The writer", "The painter"]}],
     
-    ["filler", "DashedSentence", {s:"The lawnmower did not always function properly when the grass was wet."},
-     "Question", {hasCorrect: "No", q:"Did the lawnmower always function properly?", as: ["Yes", "No"]}],
+    ["filler", "DashedSentence", {s:"The diver needs certified lifeguards keeping watch over the beach."},
+     "Question", {hasCorrect: "At the beach", q:"Where is the diver?", as: ["At the store", "At the beach"]}],
     
     ["filler", "DashedSentence", {s:"The term papers from the previous semester were beginning to accumulate on the teacher’s desk."},
      "Question", {hasCorrect: "The previous semester", q:"What semester are the papers from?", as: ["The current semester", "The previous semester"]}],
@@ -168,8 +168,8 @@ var items = [
     ["filler", "DashedSentence", {s:"The teachers had to move their classes online due to a pandemic."},
      "Question", {hasCorrect: "A pandemic", q:"What caused the classes to be moved online?", as: ["A snowstorm", "A pandemic"]}],
     
-    ["filler", "DashedSentence", {s:"All the guitarists learned to play when they were teenagers."},
-     "Question", {hasCorrect: "As teenagers", q:"When did the guitarists learn to play guitar?", as: ["As adults", "As teenagers"]}],
+    ["filler", "DashedSentence", {s:"The employer needs determined applicants for the vacant position."},
+     "Question", {hasCorrect: "No", q:"Is the position already filled?", as: ["Yes", "No"]}],
     
     ["dtrain", "DashedSentence", {s:"The teacher needs appreciated for putting together the school curriculum."},
      "Question", {hasCorrect: "The school curriculum", q:"What did the teacher put together?", as: ["The school curriculum", "The school lunches"]}],
@@ -183,8 +183,8 @@ var items = [
     ["filler", "DashedSentence", {s:"The real estate agent blundered when he revealed the house's plumbing problems."},
      "Question", {hasCorrect: "Plumbing problems", q:"What kind of problems did the house have?", as: ["Plumbing problems", "Mold"]}],
     
-    ["filler", "DashedSentence", {s:"The indoor plants dried out due to lack of proper watering."},
-     "Question", {hasCorrect: "The plants", q:"What dried out?", as: ["The towel", "The plants"]}],
+    ["filler", "DashedSentence", {s:"The conductor needs skilled musicians playing in the orchestra."},
+     "Question", {hasCorrect: "The orchestra", q:"What is the conductor in charge of?", as: ["The train", "The orchestra"]}],
     
     ["dtrain", "DashedSentence", {s:"The brightly colored parrot needs fed because she has been hungry for days."},
      "Question", {hasCorrect: "A parrot", q:"What kind of animal was hungry?", as: ["A parrot", "A rabbit"]}],
@@ -192,26 +192,26 @@ var items = [
     ["filler", "DashedSentence", {s:"The leader of the gambling ring was always mistrustful of his bodyguards."},
      "Question", {hasCorrect: "A gambling ring", q:"What was the leader in charge of?", as: ["A gambling ring", "A circus"]}],
     
-    ["filler", "DashedSentence", {s:"Each of the divers had a strict regimen so that they would be prepared for the swim meet."},
-     "Question", {hasCorrect: "A swim meet", q:"What were the divers preparing for?", as: ["A break", "A swim meet"]}],
+    ["filler", "DashedSentence", {s:"The veterinarian needs behaved pets at their practice."},
+     "Question", {hasCorrect: "The veterinarian", q:"Who runs the practice?", as: ["The dentist", "The veterinarian"]}],
     
     ["dtrain", "DashedSentence", {s:"The landlord needs reimbursed for the damages to the property."},
      "Question", {hasCorrect: "No", q:"Was the property in perfect condition?", as: ["Yes", "No"]}],
     
-    ["filler", "DashedSentence", {s:"The school principal had to work constantly all summer dealing with paperwork."},
-     "Question", {hasCorrect: "Paperwork", q:"What did the principal have to deal with?", as: ["Paperwork", "Students"]}],
+    ["filler", "DashedSentence", {s:"The kids need animated movies shown at the theater during their spring break."},
+     "Question", {hasCorrect: "During spring break", q:"When can the kids go to the theater?", as: ["During school hours", "During spring break"]}],
     
     ["filler", "DashedSentence", {s:"The library was open to all members of the community since it was supported by tax dollars."},
      "Question", {hasCorrect: "The library", q:"What was open to all members of the community?", as: ["The gym", "The library"]}],
     
-    ["filler", "DashedSentence", {s:"The students went on a trip to Paris one summer to improve their language skills."},
-     "Question", {hasCorrect: "Paris", q:"Where did the students go on a trip?", as: ["Australia", "Paris"]}],
+    ["filler", "DashedSentence", {s:"The kindergarten teacher needs excited kids to attend class online."},
+     "Question", {hasCorrect: "Kindergarteners", q:"Who is being taught?", as: ["High schoolers", "Kindergarteners"]}],
     
     ["dtrain", "DashedSentence", {s:"The businesswoman needs prepared for the presentation."},
      "Question", {hasCorrect: "The businesswoman", q:"Who is presenting?", as: ["The intern", "The businesswoman"]}],
     
-    ["filler", "DashedSentence", {s:"The street lamps usually came on automatically just before dark."},
-     "Question", {hasCorrect: "Before dark", q:"When did the street lamps turn on?", as: ["Before dark", "At sunrise"]}],
+    ["filler", "DashedSentence", {s:"The actor needs rehearsed performances scheduled before the opening of the show."},
+     "Question", {hasCorrect: "An actor", q:"Who is starring in the show?", as: ["An actor", "A musician"]}],
     
     ["filler", "DashedSentence", {s:"The foreign ambassadors arrived to the meeting surrounded by security guards."},
      "Question", {hasCorrect: "Security guards", q:"Who surrounded the ambassadors?", as: ["Secret agents", "Security guards"]}],
@@ -234,20 +234,20 @@ var items = [
     ["filler", "DashedSentence", {s:"The people downtown are frustrated by the lack of available parking."},
      "Question", {hasCorrect: "Downtown", q:"Where was there no parking?", as: ["In the suburbs", "Downtown"]}],
     
-    ["filler", "DashedSentence", {s:"The company's health plan did not cover even the most basic health services."},
-     "Question", {hasCorrect: "No", q:"Did the company's health plan have basic coverage?", as: ["Yes", "No"]}],
+    ["filler", "DashedSentence", {s:"The lawyer needs approved papers by tomorrow morning."},
+     "Question", {hasCorrect: "Tomorrow morning", q:"When are the papers due?", as: ["Tomorrow morning", "Next week"]}],
     
     ["dtrain", "DashedSentence", {s:"The cute baby needs held because he is feeling uneasy."},
      "Question", {hasCorrect: "Uneasy", q:"How was the baby feeling?", as: ["Uneasy", "Happy"]}],
     
-    ["filler", "DashedSentence", {s:"The landscaper boasted of his achievements constantly."},
-     "Question", {hasCorrect: "The landscaper", q:"Who constantly boasted about their achievements?", as: ["The architect", "The landscaper"]}],
+    ["filler", "DashedSentence", {s:"The temporary worker needs assigned hours before the holidays."},
+     "Question", {hasCorrect: "No", q:"Have the hours been assigned?", as: ["Yes", "No"]}],
     
     ["filler", "DashedSentence", {s:"The physics professor at the university was finally going to retire."},
      "Question", {hasCorrect: "The physics professor", q:"Who was going to retire?", as: ["The physics professor", "The French professor"]}],
     
-    ["filler", "DashedSentence", {s:"The basketball game ended with the home team missing the winning shot."},
-     "Question", {hasCorrect: "The home team", q:"Who lost the basketball game?", as: ["The home team", "The visiting team"]}],
+    ["filler", "DashedSentence", {s:"The bride and groom need recorded video of their wedding."},
+     "Question", {hasCorrect: "A wedding", q:"What kind of celebration is happening?", as: ["A graduation party", "A wedding"]}],
     
     ["dtrain", "DashedSentence", {s:"The prospective students need accepted to the graduate program."},
      "Question", {hasCorrect: "A graduate program", q:"What kind of program were the students interested in?", as: ["A graduate program", "An undergraduate program"]}],
@@ -255,9 +255,9 @@ var items = [
     ["filler", "DashedSentence", {s:"The university students sometimes move into the dormitories as early as August."},
      "Question", {hasCorrect: "August", q:"When did some students move into the dormitories?", as: ["June", "August"]}],
     
-    ["filler", "DashedSentence", {s:"Many of the soldiers were looking forward to going home for the winter holidays."},
-     "Question", {hasCorrect: "During the winter holidays", q:"When were the soldiers going home?", 
-                  as: ["During the winter holidays", "During spring break"]}],
+    ["filler", "DashedSentence", {s:"The high school student needs appointed study hours for the upcoming standardized exam."},
+     "Question", {hasCorrect: "A high school student", q:"Who is taking the exam?", 
+                  as: ["A college student", "A high school student"]}],
     
     ["dtrain", "DashedSentence", {s:"The sheep need sheared before summer arrives in two months."},
      "Question", {hasCorrect: "In two months", q:"When will summer arrive?", as: ["In two months", "In seven months"]}],
@@ -265,11 +265,11 @@ var items = [
     ["filler", "DashedSentence", {s:"The angry customers decided to leave the restaurant."},
      "Question", {hasCorrect: "Yes", q:"Were the customers angry?", as: ["Yes", "No"]}],
     
-    ["filler", "DashedSentence", {s:"Each of the cab drivers had their own favorite route to get to the airport."},
-     "Question", {hasCorrect: "The airport", q:"Where did the cab drivers' route take them?", as: ["The museum", "The airport"]}],
+    ["filler", "DashedSentence", {s:"The hotel manager needs satisfied guests at each of their hotels."},
+     "Question", {hasCorrect: "Hotels", q:"What buildings does the manager take care of?", as: ["Apartments", "Hotels"]}],
     
-    ["filler", "DashedSentence", {s:"The power plant deserved more attention from the candidates during the election."},
-     "Question", {hasCorrect: "The powerplant", q:"What deserved more attention?", as: ["The park", "The powerplant"]}],
+    ["filler", "DashedSentence", {s:"The artist needs developed photographs before the gallery opens  in two days."},
+     "Question", {hasCorrect: "In two days", q:"When will the gallery open?", as: ["In three weeks", "In two days"]}],
     
     ["dtrain", "DashedSentence", {s:"The mayor needs respected after calming down the crowds."},
      "Question", {hasCorrect: "The mayor", q:"Who calmed down the crowds?", as: ["The president", "The mayor"]}],
@@ -283,8 +283,8 @@ var items = [
     ["filler", "DashedSentence", {s:"The quilts were sold by the side of the road for ten dollars."},
      "Question", {hasCorrect: "Ten dollars", q:"How much were the quilts sold for?", as: ["Ten dollars", "Thirty dollars"]}],
     
-    ["filler", "DashedSentence", {s:"The car salesman waited anxiously for more customers."},
-     "Question", {hasCorrect: "The salesman", q:"Who waited for more customers?", as: ["The salesman", "The chef"]}],
+    ["filler", "DashedSentence", {s:"The young agent needs married couples to lease the nice apartment units."},
+     "Question", {hasCorrect: "Apartment units", q:"What is being leased?", as: ["Used cars", "Apartment units"]}],
     
     ["dtrain", "DashedSentence", {s:"The general needs honored for his wartime heroics six years ago."},
      "Question", {hasCorrect: "Six years ago", q:"When was the general a hero?", as: ["One year ago", "Six years ago"]}],
@@ -292,24 +292,24 @@ var items = [
     ["filler", "DashedSentence", {s:"The valuable lamp was broken by the mischievous boy."},
      "Question", {hasCorrect: "A lamp", q:"What did the boy break?", as: ["A vase", "A lamp"]}],
     
-    ["filler", "DashedSentence", {s:"The spy was unable to cross the field without being seen."},
-     "Question", {hasCorrect: "The field", q:"What was the spy planning to cross?", as: ["The field", "The lake"]}],
+    ["filler", "DashedSentence", {s:"The politician needs persuaded constituents to vote for them in the upcoming election."},
+     "Question", {hasCorrect: "An election", q:"What is coming up?", as: ["A debate", "An election"]}],
     
-    ["filler", "DashedSentence", {s:"The engineers at the plant had to wear helmets when they went near the machines."},
-     "Question", {hasCorrect: "Helmets", q:"What did the engineers wear?", as: ["Helmets", "Boots"]}],
+    ["filler", "DashedSentence", {s:"The educator needs informed opinions about standardized testing before writing up a new policy."},
+     "Question", {hasCorrect: "Standardized testing", q:"What will the policy be on?", as: ["Standardized testing", "Student attendance"]}],
     
     ["dtrain", "DashedSentence", {s:"The ballet dancer needs featured in the upcoming performance."},
      "Question", {hasCorrect: "Ballet", q:"What type of dance is the performance?", as: ["Tango", "Ballet"]}],
     
-    ["filler", "DashedSentence", {s:"The priceless ceramic sculpture had to sit on the top shelf of the lawyer's office."},
-     "Question", {hasCorrect: "In the lawyers office", q:"Where was the ceramic sculpture located?", 
-                  as: ["In the lawyers office", "In a musuem"]}],
+    ["filler", "DashedSentence", {s:"The competitors need impressed judges during the school talent show."},
+     "Question", {hasCorrect: "A school talent show", q:"What kind of show is it?", 
+                  as: ["A musical", "A school talent show"]}],
     
     ["filler", "DashedSentence", {s:"The dance troupe came to set up their equipment."},
      "Question", {hasCorrect: "Their equipment", q:"What did the dance troupe set up?", as: ["Their equipment", "A merchandise stand"]}],
     
-    ["filler", "DashedSentence", {s:"The wealthy bankers liked to frequent the bars downtown."},
-     "Question", {hasCorrect: "Bankers", q:"Who liked to frequent the bars?", as: ["Bankers", "Judges"]}],
+    ["filler", "DashedSentence", {s:"The presenter needs prepped meals to go with the meeting next week. "},
+     "Question", {hasCorrect: "Next week", q:"When is the meeting?", as: ["Next week", "In two months"]}],
     
     ["dtrain", "DashedSentence", {s:"The high school student needs tutored before the big math exam."},
      "Question", {hasCorrect: "A math exam", q:"What kind of exam is coming up?", as: ["A math exam", "A biology exam"]}],

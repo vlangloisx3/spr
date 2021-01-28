@@ -113,7 +113,7 @@ var items = [
     ["filler", "DashedSentence", {s:"The salesman wants updated information before the end of the quarter."},
      "Question", {hasCorrect: "The salesman", q:"Who is requesting information?", as: ["The CEO", "The salesman"]}],
     
-    ["filler", "DashedSentence", {s:"The cyclist wanted to train throughout the winter so he moved to Hawaii."},
+    ["filler", "DashedSentence", {s:"The cyclist had to train throughout the winter so he moved to Hawaii."},
      "Question", {hasCorrect: "Hawaii", q:"Where did the cyclist move to?", as: ["Hawaii", "Jamaica"]}],
     
     ["dtrain", "DashedSentence", {s:"The injured soccer player wants treated by the team doctor."},
