@@ -255,7 +255,7 @@ var items = [
     ["filler", "DashedSentence", {s:"The university students sometimes move into the dormitories as early as August."},
      "Question", {hasCorrect: "August", q:"When did some students move into the dormitories?", as: ["June", "August"]}],
     
-    ["filler", "DashedSentence", {s:"The high school student wants appointed study hours for the upcoming standardized exam."},
+    ["filler", "DashedSentence", {s:"The high school student wants appointed study hours for the upcoming exam."},
      "Question", {hasCorrect: "A high school student", q:"Who is taking the exam?", 
                   as: ["A college student", "A high school student"]}],
     
@@ -268,7 +268,7 @@ var items = [
     ["filler", "DashedSentence", {s:"The hotel manager wants satisfied guests at each of their hotels."},
      "Question", {hasCorrect: "Hotels", q:"What buildings does the manager take care of?", as: ["Apartments", "Hotels"]}],
     
-    ["filler", "DashedSentence", {s:"The artist wants developed photographs before the gallery opens  in two days."},
+    ["filler", "DashedSentence", {s:"The artist wants developed photographs before the gallery opens in two days."},
      "Question", {hasCorrect: "In two days", q:"When will the gallery open?", as: ["In three weeks", "In two days"]}],
     
     ["dtrain", "DashedSentence", {s:"The mayor wants respected after calming down the crowds."},
@@ -308,7 +308,7 @@ var items = [
     ["filler", "DashedSentence", {s:"The dance troupe came to set up their equipment."},
      "Question", {hasCorrect: "Their equipment", q:"What did the dance troupe set up?", as: ["Their equipment", "A merchandise stand"]}],
     
-    ["filler", "DashedSentence", {s:"The presenter wants prepped meals to go with the meeting next week. "},
+    ["filler", "DashedSentence", {s:"The presenter wants prepped meals to go with the meeting next week."},
      "Question", {hasCorrect: "Next week", q:"When is the meeting?", as: ["Next week", "In two months"]}],
     
     ["dtrain", "DashedSentence", {s:"The high school student wants tutored before the big math exam."},
