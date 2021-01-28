@@ -1,0 +1,57 @@
+<div style="width: 40em; margin-top: -10em;">
+<HTML>
+<HEAD>
+
+<SCRIPT Language="JavaScript">
+<!--
+
+document.getElementById("p2").style.display="none"
+
+
+function getVal(){
+
+var radios = document.getElementsByName('post-question1');
+
+for (var i = 0, length = radios.length; i < length; i++  ) {
+    if (radios[i].checked) {
+ 
+        if(radios[i].value=="yes")
+  {
+  document.getElementById("p2").style.display="block";
+        }
+       if(radios[i].value=="no")
+  {
+  document.getElementById("p2").style.display="none"
+        }
+ 
+}
+
+}
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+
+<p>
+<b>Section 1: Post-questionnaire</b>
+
+<p>
+Please answer the following questions about your experience participating in this survey.
+<br>
+<p></p>
+<table cellpadding="5" style="width: 45em;">
+<td> 1. Did you think there was anything odd about the sentences you read? </td><td><input name="post-question1" type="radio" value="yes" class="obligatory" id="p1yes" onClick="getVal()"/><label for="p1yes">Yes</label></td>
+                   <td><input name="post-question1" type="radio" value="no" id="p1no" onClick="getVal()"/><label for="p1no">No</label></td>
+</tr>
+</table>
+
+
+<table cellpadding="10" style="width: 50em;" id="p2">
+<td style="width: 50em;">If yes, can you describe what was odd or give an example of something odd you saw?<br>
+<textarea style="width: 30em; height: 3em" name="post-question2" rows="1" cols="20"></textarea></td>
+</table>
+
+</BODY>
+</HTML>

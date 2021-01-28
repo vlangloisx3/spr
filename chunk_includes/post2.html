@@ -1,0 +1,131 @@
+<div style="width: 40em; margin-top: -10em;">
+<HTML>
+<HEAD>
+
+<SCRIPT Language="JavaScript">
+<!--
+
+document.getElementById("PA").style.display="none"
+document.getElementById("PAQuest").style.display="none"
+document.getElementById("CO").style.display="none"
+document.getElementById("COQuest").style.display="none"
+
+function getVal1(){
+
+var radios = document.getElementsByName('location1');
+
+for (var i = 0, length = radios.length; i < length; i++  ) {
+    if (radios[i].checked) {
+ 
+        if(radios[i].value=="1")
+  {
+  document.getElementById("PAQuest").style.display="block";
+  document.getElementById("PA").style.display="block";
+        }
+       if(radios[i].value=="2")
+  {
+  document.getElementById("PAQuest").style.display="none"
+  document.getElementById("PA").style.display="none"
+        }
+ 
+}
+
+}
+}
+
+function getVal2(){
+
+var radios = document.getElementsByName('location2');
+
+for (var i = 0, length = radios.length; i < length; i++  ) {
+    if (radios[i].checked) {
+ 
+        if(radios[i].value=="1")
+  {
+  document.getElementById("COQuest").style.display="block";
+  document.getElementById("CO").style.display="block";
+        }
+       if(radios[i].value=="2")
+  {
+  document.getElementById("COQuest").style.display="none"
+  document.getElementById("CO").style.display="none"
+        }
+ 
+}
+
+}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+
+<p>
+<b>Section 2: Post-questionnaire</b>
+
+<p>
+<table cellpadding="5" style="width: 45em;">
+<tr>
+  <td colspan="2" style="width: 40em; padding-bottom: 0.5em;">Some people say <i>The car needs washed</i>, instead of <i>The car needs <u>to be</u> washed</i>.</td>
+</tr>
+</table>
+
+<table cellpadding="5" style="width: 53.5em;">
+<tr>
+  <td colspan="1" style="width: 60em;">
+<label for="post-question2" required>2. Prior to this experiment, how often did you hear sentences like <i>The car needs washed?</i>:</label>
+  <br>
+  <form action="" method="post">
+    <br><input type="radio" name="post-question2" value="never" class="obligatory"/> Never
+    <br><input type="radio" name="post-question2" value="rarely" /> Rarely
+    <br><input type="radio" name="post-question2" value="sometimes" /> Sometimes
+    <br><input type="radio" name="post-question2" value="often" /> Often
+    </form></td>
+</tr>
+</table>
+
+<table cellpadding="5" style="width: 53.5em;">
+<tr>
+  <td colspan="1" style="width: 20em;">3. Have you ever lived in Pennsylvania, USA?</td>
+  <td><input type="radio" name="location1" value="1" class="obligatory" onClick="getVal1()"/>Yes
+    <input type="radio" name="location1" value="2" onClick="getVal1()"/>No<p></td>
+  </tr>
+</table>
+
+<table cellpadding="5" style="width: 53.5em;">
+<tr>
+  <td colspan="1" style="width: 40em;" id="PAQuest">Select the option that best describes your situation living in Pennsylvania:
+  <form action="" method="post" id="PA" >
+    <br><input type="radio" name="PA" value="1"/> Lived there for a short time
+    <br><input type="radio" name="PA" value="2" /> Grew up there but no longer live there
+    <br><input type="radio" name="PA" value="3" /> Currently live there but moved there as an adult
+    <br><input type="radio" name="PA" value="4"/> Lived there for a long time but no longer live there
+    <br><input type="radio" name="PA" value="5" /> Spent entire life there
+    </form></td>
+</tr>
+</table>
+
+<table cellpadding="5" style="width: 53.5em;">
+<tr>
+  <td colspan="1" style="width: 20em;">4. Have you ever lived in Colorado, USA?</td>
+  <td><input type="radio" name="location2" value="1" class="obligatory" onClick="getVal2()"/>Yes
+    <input type="radio" name="location2" value="2" onClick="getVal2()"/>No<p></td>
+  </tr>
+</table>
+
+<table cellpadding="5" style="width: 53.5em;">
+<tr>
+  <td colspan="1" style="width: 40em;" id="COQuest">Select the option that best describes your situation living in Colorado:
+  <form action="" method="post" id="CO" >
+    <br><input type="radio" name="CO" value="1"/> Lived there for a short time
+    <br><input type="radio" name="CO" value="2" /> Grew up there but no longer live there
+    <br><input type="radio" name="CO" value="3" /> Currently live there but moved there as an adult
+    <br><input type="radio" name="CO" value="4"/> Lived there for a long time but no longer live there
+    <br><input type="radio" name="CO" value="5" /> Spent entire life there
+    </form></td>
+</tr>
+</table>
+
+
+</BODY>
+</HTML>
